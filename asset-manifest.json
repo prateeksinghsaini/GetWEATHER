@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/GetWEATHER/static/css/main.0affde64.css",
+    "main.js": "/GetWEATHER/static/js/main.507b74a0.js",
+    "static/media/photo_2023-03-16_14-44-03.jpg": "/GetWEATHER/static/media/photo_2023-03-16_14-44-03.08848569ee9478dbfd71.jpg",
+    "index.html": "/GetWEATHER/index.html",
+    "main.0affde64.css.map": "/GetWEATHER/static/css/main.0affde64.css.map",
+    "main.507b74a0.js.map": "/GetWEATHER/static/js/main.507b74a0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0affde64.css",
+    "static/js/main.507b74a0.js"
+  ]
+}
