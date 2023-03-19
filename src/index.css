@@ -1,3 +1,12 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: arial, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: white;
+}
+.newfont{
+  font-family: "consolas";
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +14,51 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to top,rgba(0, 0, 0, 0.932), rgba(12, 43, 59, 0.345)), url("../public/assets/imgs/photo_2023-03-16_14-44-03.jpg") center no-repeat fixed;
+  background-size: cover;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#temp{
+  font-size: 60px;
+}
+#inputID{
+  color: white;
+  opacity: 1;
+}
+#inputID:focus{
+  outline: none;
+}
+#inputID::placeholder{
+  color: white;
+  opacity: 1;
+}
+.box{
+  background-color: rgba(255, 255, 255, 0.049);
+  transition: 0.2s linear;
+}
+.box:hover{
+  background-color: rgba(255, 255, 255, 0.086);
+  box-shadow: inset 0 0 500px rgba(176, 168, 229, 0.381);
+  transform: scale(1.1);
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+
+@media screen and (min-width: 770px) {
+  #temp{
+    font-size: 150px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #temp{
+    font-size: 100px;
+  }
 }
