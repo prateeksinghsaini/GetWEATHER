@@ -31,6 +31,7 @@ export default function City() {
   useEffect(() => {
 
     async function getCity() {
+        try {
         var response = await fetch(`https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/${search}?unitGroup=metric&key=293ZKDKPFM64UYS3UKL2BC662`)
         var result = await response.json()
         ///console.log(result);
@@ -58,6 +59,9 @@ export default function City() {
             sunset: result.days[0].sunset
           })
         })
+      }
+      catch (error) {
+
       }
     getCity()
 
