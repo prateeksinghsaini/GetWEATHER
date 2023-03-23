@@ -34,7 +34,7 @@ export default function City() {
       try {
         var response = await fetch(`https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/${search}?unitGroup=metric&key=293ZKDKPFM64UYS3UKL2BC662`)
         var result = await response.json()
-        console.log(result);
+        ///console.log(result);
         setSpinner(false)
         setcity((old) => {
           return ({
